@@ -47,7 +47,6 @@ const customers = [
   }
 ]
 
-
 class App extends Component {
   render() {
     const { classes } = this.props;
@@ -56,12 +55,12 @@ class App extends Component {
         <Table className={classes.table}>
           <TableHead>
             <TableRow>
-              <TableCell>No</TableCell>
-              <TableCell>Profile</TableCell>
-              <TableCell>Name</TableCell>
-              <TableCell>Birthday</TableCell>
-              <TableCell>Gender</TableCell>
-              <TableCell>Job</TableCell>
+              <TableCell align="center">No</TableCell>
+              <TableCell align="center">Profile</TableCell>
+              <TableCell align="center">Name</TableCell>
+              <TableCell align="center">Birthday</TableCell>
+              <TableCell align="center">Gender</TableCell>
+              <TableCell align="center">Job</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>
