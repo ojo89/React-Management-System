@@ -105,10 +105,10 @@ class CustomerAdd extends React.Component {
         return (
             <div>
                 <Button variant="contained" color="primary" onClick={this.handleClickOpen}>
-                    Customer ADD
+                    Add Customer
                 </Button>
                 <Dialog open={this.state.open} onClose={this.handleClose}>
-                    <DialogTitle>Customer Add</DialogTitle>
+                    <DialogTitle>Add Customer</DialogTitle>
                     <DialogContent>
                         <input className={classes.hidden} accept="image/*" id="raised-button-file" type="file" file={this.state.file} value={this.state.fileName} onChange={this.handleFileChange} />
                         <label htmlFor="raised-button-file">
